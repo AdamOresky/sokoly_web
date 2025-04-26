@@ -8,6 +8,7 @@ const initialState = {
   message: "",
 };
 export const Contact = (props) => {
+  const currentYear = new Date().getFullYear();
   const [{ name, email, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
@@ -148,7 +149,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
+            &copy; {currentYear} Issaaf Kattan React Land Page Template. Design by{" "}
             <a href="http://www.templatewire.com" rel="nofollow">
               TemplateWire
             </a>
