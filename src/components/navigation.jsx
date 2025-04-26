@@ -17,8 +17,9 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+          <a className="navbar-brand page-scroll" href="#page-top" style={{padding: 0}}>
+            <img src={"img/logo.jpg"} style={{ maxWidth: "50px", display: "inline-block", marginRight: "15px" }} />
+            TJ SOKOL MALACKY
           </a>{" "}
         </div>
 
