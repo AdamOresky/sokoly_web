@@ -152,6 +152,7 @@ export const Contact = (props) => {
             <a href="http://www.templatewire.com" rel="nofollow">
               TemplateWire
             </a>
+            . Modified by Oreský Adam
           </p>
         </div>
       </div>
