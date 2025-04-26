@@ -24,23 +24,23 @@ export const Navigation = (props) => {
         </div>
 
         <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
+            className="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#about" className="page-scroll">
-                About
+                O nás
               </a>
             </li>
             <li>
               <a href="#services" className="page-scroll">
-                Services
+                Oddiely
               </a>
             </li>
             <li>
               <a href="#portfolio" className="page-scroll">
-                Gallery
+                Galéria
               </a>
             </li>
             <li>
@@ -50,12 +50,12 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#team" className="page-scroll">
-                Team
+                Tím
               </a>
             </li>
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                Kontakt
               </a>
             </li>
           </ul>
